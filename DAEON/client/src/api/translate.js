@@ -1,19 +1,16 @@
 // src/api/translate.js
 import { Platform } from "react-native";
 
-/**
+/*
  * 플랫폼별 서버 주소
- * - Android 에뮬레이터: 10.0.2.2 (PC의 localhost)
- * - iOS 시뮬레이터 / Web: localhost
- * - 실제 기기에서 테스트할 때는 PC의 LAN IP로 직접 바꿔 써야 함
  */
 function getBaseUrl() {
   if (Platform.OS === "android") {
     // Android 에뮬레이터에서 PC의 127.0.0.1을 가리키는 주소
-    return "http://192.168.0.13:3000";
+    return "http://server_ip:3000"; //당신의 서버 주소로 수정하세요
   }
   // iOS 시뮬레이터, Web 등
-  return "http://192.168.0.13:3000";
+  return "http://server_ip:3000"; //당신의 서버 주소로 수정하세요
 }
 
 /**

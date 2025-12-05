@@ -10,7 +10,7 @@ import {
 } from "react-native";
 
 // ⚠ translate.js 의 SERVER_BASE_URL 과 동일하게 맞춰야 함
-const SERVER_BASE_URL = "http://192.168.0.13:3000";
+const SERVER_BASE_URL = "http://server_ip:3000"; //당신의 서버 주소로 수정하세요
 
 function StatusBadge({ status }) {
   let label = "알 수 없음";

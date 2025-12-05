@@ -49,7 +49,7 @@ export default function App() {
                   onPress={() => navigation.navigate("Settings")}
                   style={{ paddingHorizontal: 8, paddingVertical: 4 }}
                 >
-                  <Text style={{ fontSize: 16 }}>설정</Text>
+                  <Text style={{ fontSize: 16 }}>상태</Text>
                 </TouchableOpacity>
               </View>
             ),
