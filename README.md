@@ -60,26 +60,47 @@ dotenv
 📁 폴더 구조
 
 DAEON
+
 ├─ client
+
 │ ├─ App.js
+
 │ ├─ src
+
 │ │ ├─ ui
+
 │ │ │ ├─ screens
+
 │ │ │ ├─ components
+
 │ │ │ └─ navigation
+
 │ │ ├─ api
+
 │ │ │ └─ translate.js
+
 │ │ ├─ db
+
 │ │ │ └─ sqlite
+
 │ │ └─ shared
+
 └─ server
+
 ├─ src
+
 │ ├─ controllers
+
 │ ├─ routes
+
 │ ├─ services
+
 │ └─ index.js
+
 ├─ package.json
+
 └─ .env
+
 
 🚀 실행 방법
 1) 서버 실행
