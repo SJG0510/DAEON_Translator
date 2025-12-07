@@ -85,13 +85,17 @@ DAEON
 1) 서버 실행
 
 cd server
+
 npm install
+
 npm start
 
 2) 클라이언트 실행
 
 cd client
+
 npm install
+
 npx expo start
 
 🔧 클라이언트에서 반드시 수정해야 하는 곳
